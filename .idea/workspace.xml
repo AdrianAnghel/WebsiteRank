@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e125152-3cbf-4382-9d74-48e89a8c2617" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WebsiteRank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/sender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controller/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controller/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/helper/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/helper/dict_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/helper/sorted_list_creation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/helper/url_parser.py" afterDir="false" />
-    </list>
+    <list default="true" id="2e125152-3cbf-4382-9d74-48e89a8c2617" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dict_array.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dict_array.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/helper/dict_array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="56" selection-start-column="56" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -112,6 +106,7 @@
         <option value="$PROJECT_DIR$/client/sender.py" />
         <option value="$PROJECT_DIR$/server/controller/main.py" />
         <option value="$PROJECT_DIR$/server/helper/dict_array.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -266,7 +261,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,12 +324,12 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>time.minute == dict_of_domains[element][i][1].today().minute</expression-string>
+        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>time.minute == dict_of_domains[element][i][1].today().minute:</expression-string>
+        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -519,6 +514,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
         </state>
       </provider>
     </entry>

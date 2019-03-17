@@ -9,9 +9,7 @@ def send_message():
 
         else:
             for url in link.split(";"):
-                print("Sending request")
                 response_code = str(requests.post('http://localhost:8000', data=url))
-                print("Get request send. Received answer")
                 if '200' in response_code:
                     print("Successfully send")
                 elif '400' in response_code:

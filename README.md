@@ -2,7 +2,7 @@
 
 # WebsiteRank
 
-This is a client - server application for a website rank
+This is a client - server application for a website rank.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need Python 3.4.3 to run this project. No other external library is needed
+You need Python 3.4.3 to run this project. No other external library is needed.
 
 
 
@@ -27,9 +27,9 @@ Or you can send a bulk of websites, separated by ;
 ```
 http://www.example.com?SESSIONID=a25asvsd&x=15 ; http://www.example.com?SESSIONID=b25asvsd&x=15 ; http://www.example1.com?SESSIONID=a25asvsd&x=15 ; http://www.example2.com?SESSIONID=a25asvsd&x=15 ; http://www.example2.com?SESSIONID=b25asvsd&x=15 ; http://www.example.com?SESSIONID=a25asvsd&x=15 ; http://www.example.com?SESSIONID=a25asvsd&x=16 ; http://www.example.com?SESSIONID=c25asvsd&x=16
 ```
-The client send this information as a POST request
+The client sends this information as a POST request.
 
-When you do a GET request, you will get a top sorted by most accessed websites from the start and from the last minute
+When you do a GET request, you will get a top of websites, sorted by the most accessed ones from the start and from the last minute.
 
 GET request (for localhost; default port is 8000)
 ```

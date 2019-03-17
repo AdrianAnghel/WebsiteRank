@@ -1,0 +1,7 @@
+*.iml
+.idea/*
+venv/*
+*.com
+*.class
+*.dll
+*.exe

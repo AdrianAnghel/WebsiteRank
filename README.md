@@ -44,6 +44,9 @@ GET Response
 ['3:example.com', '2:example2.com', '1:example1.com']
 ```
 
+The SESSIONID in the parameters is mandatory. Base on this value, the rank is established.
+
+If the same domain and the same SESSIONID is send twice, if it is in the same minute(time interval), it will only be considered once. Otherwise, if you have different time intervals, it will be considered by the number of appearances.
 
 ## Author
 
